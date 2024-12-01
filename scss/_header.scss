@@ -1,0 +1,86 @@
+nav {
+    .container {
+        width: 85%;
+        margin: 0 auto;
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+
+            .nav_items {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
+                list-style: none;
+            }
+
+            .nav_call {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                list-style: none;
+                gap: 50px;
+                color: black;
+                font-size: 20px;
+
+                .nav_icon {
+                    color: #AE7B3C;
+                    font-size: 20px;
+                    margin-left: 10PX;
+                }
+            }
+        }
+    }
+}
+
+header {
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+    background-size: cover;
+    margin-top: 10px;
+
+    .bg_color {
+        width: 100%;
+        height: 550px;
+        background-size: cover;
+        background-image: url(../images/Rectangle\ 1\ \(2\).png);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .header-bar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 600px;
+
+            h2 {
+                font-size: 50px;
+                font-weight: 700;
+                color: white;
+                text-align: center;
+                margin-top: 100px;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                color: white;
+                text-align: center;
+            }
+
+            button {
+                margin-top: 80px;
+                width: 250px;
+                height: 60px;
+                color: white;
+                background-color: #AE7B3C;
+                font-size: 15px;
+            }
+        }
+    }
+}

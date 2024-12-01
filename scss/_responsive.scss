@@ -1,0 +1,64 @@
+@media screen and (max-width: 400px) {
+    .Основні {
+        .container{
+            .cards {
+                grid-template-columns: auto;
+                align-items: center;
+                justify-content: center;
+                .card{
+                    padding: 0;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    header {
+        .bg_color {
+            width: 100%;
+            background-size: cover;
+            .header-bar {
+                width: 90%;
+                h2 {
+                    font-size: 30x;
+                    font-weight: 500;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .about{
+        margin-top: 950px;
+        h2{
+            font-size: 30px;
+            padding: 0;
+            
+        }
+        .about_sect{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .nav_items {
+        display: none !important;
+    }
+
+    .nav_call {
+        display: none !important;
+    }
+}
+
+@media (min-width:640px) and (max-width: 1800px) {
+    .navbar {
+        i {
+            display: none !important;
+        }
+    }
+}
